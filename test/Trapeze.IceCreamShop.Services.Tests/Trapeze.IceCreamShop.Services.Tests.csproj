@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <Import Project="$(ProjectDir)../../Tests.With.xUnit.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Trapeze.IceCreamShop.Data\Trapeze.IceCreamShop.Data.csproj" />
+    <ProjectReference Include="..\..\src\Trapeze.IceCreamShop.Services\Trapeze.IceCreamShop.Services.csproj" />
+    <ProjectReference Include="..\..\src\Trapeze.IceCreamShop\Trapeze.IceCreamShop.csproj" />
+  </ItemGroup>
+
+</Project>
